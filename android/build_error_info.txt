@@ -1,0 +1,69 @@
+Initialized native services in: C:\Users\HP\.gradle\native
+Initialized jansi services in: C:\Users\HP\.gradle\native
+Found daemon DaemonInfo{pid=28440, address=[ad1217fd-36d2-46f0-8f92-ff7b653b91c5 port:52018, addresses:[/127.0.0.1]], state=Idle, lastBusy=1768141240202, context=DefaultDaemonContext[uid=02edd344-e097-4fb0-8b72-6e080c7632b5,javaHome=C:\Program Files\Eclipse Adoptium\jdk-25.0.1.8-hotspot,javaVersion=25,javaVendor=Eclipse Adoptium,daemonRegistryDir=C:\Users\HP\.gradle\daemon,pid=28440,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx1536m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+JVM is incompatible.
+Wanted: DaemonRequestContext{jvmCriteria=C:\Users\HP\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.17.10-hotspot (no JDK specified, using current Java home), daemonOpts=[-Xmx1536m, -Dfile.encoding=windows-1252, -Duser.country=US, -Duser.language=en, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+Actual: DefaultDaemonContext[uid=02edd344-e097-4fb0-8b72-6e080c7632b5,javaHome=C:\Program Files\Eclipse Adoptium\jdk-25.0.1.8-hotspot,javaVersion=25,javaVendor=Eclipse Adoptium,daemonRegistryDir=C:\Users\HP\.gradle\daemon,pid=28440,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx1536m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+The client will now receive all logging from the daemon (pid: 10192). The daemon log file: C:\Users\HP\.gradle\daemon\8.14.3\daemon-10192.out.log
+Starting 3rd build in daemon [uptime: 8 mins 32.431 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 1.5 GiB]
+Using 4 worker leases.
+Now considering [C:\Users\HP\Desktop\coding\home app\stitch_family_dashboard\stitch-family-hub\android] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file 'C:\Users\HP\Desktop\coding\home app\stitch_family_dashboard\stitch-family-hub\android\settings.gradle'.
+Projects loaded. Root project using build file 'C:\Users\HP\Desktop\coding\home app\stitch_family_dashboard\stitch-family-hub\android\build.gradle'.
+Included projects: [root project 'android', project ':app', project ':capacitor-android', project ':capacitor-camera', project ':capacitor-cordova-android-plugins', project ':capacitor-filesystem', project ':capacitor-preferences']
+
+> Configure project :
+Evaluating root project 'android' using build file 'C:\Users\HP\Desktop\coding\home app\stitch_family_dashboard\stitch-family-hub\android\build.gradle'.
+
+> Configure project :app
+Evaluating project ':app' using build file 'C:\Users\HP\Desktop\coding\home app\stitch_family_dashboard\stitch-family-hub\android\app\build.gradle'.
+Using default execution profile
+google-services.json not found, google-services plugin not applied. Push Notifications won't work
+WARNING: Using flatDir should be avoided because it doesn't support any meta-data formats.
+
+> Configure project :capacitor-android
+Evaluating project ':capacitor-android' using build file 'C:\Users\HP\Desktop\coding\home app\stitch_family_dashboard\stitch-family-hub\node_modules\@capacitor\android\capacitor\build.gradle'.
+Using default execution profile
+
+> Configure project :capacitor-camera
+Evaluating project ':capacitor-camera' using build file 'C:\Users\HP\Desktop\coding\home app\stitch_family_dashboard\stitch-family-hub\node_modules\@capacitor\camera\android\build.gradle'.
+Using default execution profile
+
+> Configure project :capacitor-cordova-android-plugins
+Evaluating project ':capacitor-cordova-android-plugins' using build file 'C:\Users\HP\Desktop\coding\home app\stitch_family_dashboard\stitch-family-hub\android\capacitor-cordova-android-plugins\build.gradle'.
+Using default execution profile
+WARNING: Using flatDir should be avoided because it doesn't support any meta-data formats.
+
+> Configure project :capacitor-filesystem
+Evaluating project ':capacitor-filesystem' using build file 'C:\Users\HP\Desktop\coding\home app\stitch_family_dashboard\stitch-family-hub\node_modules\@capacitor\filesystem\android\build.gradle'.
+Using default execution profile
+Build f2b56b1c-ddec-4bfe-a9ef-e9f32ca798b8 is started
+Using Kotlin Gradle Plugin gradle813 variant
+
+> Configure project :capacitor-preferences
+Evaluating project ':capacitor-preferences' using build file 'C:\Users\HP\Desktop\coding\home app\stitch_family_dashboard\stitch-family-hub\node_modules\@capacitor\preferences\android\build.gradle'.
+Using default execution profile
+All projects evaluated.
+Task name matched 'assembleDebug'
+Selected primary task 'assembleDebug' from project :
+Build f2b56b1c-ddec-4bfe-a9ef-e9f32ca798b8 is closed
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Could not determine the dependencies of task ':app:compileDebugJavaWithJavac'.
+> SDK location not found. Define a valid SDK location with an ANDROID_HOME environment variable or by setting the sdk.dir path in your project's local properties file at 'C:\Users\HP\Desktop\coding\home app\stitch_family_dashboard\stitch-family-hub\android\local.properties'.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 4s
+Watched directory hierarchies: []

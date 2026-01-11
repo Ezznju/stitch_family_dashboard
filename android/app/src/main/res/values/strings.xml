@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Stitch Family Hub</string>
+    <string name="title_activity_main">Stitch Family Hub</string>
+    <string name="package_name">com.stitch.familyhub</string>
+    <string name="custom_url_scheme">com.stitch.familyhub</string>
+</resources>
